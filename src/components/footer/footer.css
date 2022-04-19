@@ -56,13 +56,8 @@ footer a:hover {
     color: var(--color-bg);
 }
 
-/*  ====================== MEDIA QUERY (TABLETS) ======================  */
-@media  screen and (max-width: 1024px) {
-    
-} 
-
 /*  ====================== MEDIA QUERY (MOBILE) ======================  */
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 767px) {
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;

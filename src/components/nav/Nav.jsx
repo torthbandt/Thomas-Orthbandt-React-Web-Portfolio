@@ -7,6 +7,7 @@ import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {CgWebsite} from 'react-icons/cg'
 import {BiMessageSquareMinus} from 'react-icons/bi'
+import {IoMdContacts} from 'react-icons/io'
 import {useState} from 'react'
 
 const Nav = () => {
@@ -18,7 +19,8 @@ const Nav = () => {
       <a href="#experience" title='Experience' onClick={() => setActiveNav('#experience')}  className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href="#services" title='Services' onClick={() => setActiveNav('#services')}  className={activeNav === '#services' ? 'active' : ''}><RiServiceLine/></a>
       <a href="#portfolio" title='Portfolio' onClick={() => setActiveNav('#portfolio')}  className={activeNav === '#portfolio' ? 'active' : ''}><CgWebsite/></a>
-      <a href="#contact" title='Contact Me' onClick={() => setActiveNav('#contact')}  className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareMinus/></a>
+      <a href="#testimonials" title='Testimonials' onClick={() => setActiveNav('#testimonials')}  className={activeNav === '#testimonials' ? 'active' : ''}><BiMessageSquareMinus/></a>
+      <a href="#contact" title='Contact Me' onClick={() => setActiveNav('#contact')}  className={activeNav === '#contact' ? 'active' : ''}><IoMdContacts/></a>
     </nav>
   )
 }

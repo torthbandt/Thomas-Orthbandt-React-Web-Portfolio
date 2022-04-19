@@ -6,6 +6,7 @@ header {
 .header__container {
      text-align: center;
      height: 100%;
+     border-bottom: 1px solid var(--color-primary);
 }
 
 .header__content p {
@@ -65,23 +66,26 @@ header {
 }
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
-@media  screen and (max-width: 1024px) {
-     header {
-          height: 68vh;
+@media  screen and (max-width: 1023px) {
+     .header__socials, .scroll__down {
+          font-size:2rem;
      }
+     .header__socials {
+          left: 2rem;
+     }
+     .scroll__down {
+          right: 2rem;
+     }
+
 } 
 
 /*  ====================== MEDIA QUERY (MOBILE) ======================  */
-@media  screen and (max-width: 600px) {
-     header {
-          height: 100vh;
-     }
+@media  screen and (max-width: 767px) {
      .header__socials,.scroll__down {
           display: none;
      }
      .me {
-          margin-top: 2rem;
-          left: calc(43% - 8rem);
-          width: 66%;
+          margin: 2rem 2rem 0 0;
+          left: calc(50% - 13rem);
      }
 } 

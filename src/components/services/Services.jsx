@@ -11,38 +11,6 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Development</h3>
-          </div>
-          <ul className="service__list">
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>SASS</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>CSS3</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Photoshop</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Sketch</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Figma</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Illustrator</p>
-            </li>
-          </ul>
-        </article>
-        {/* END UI/UX Design */}
-        <article className="service">
-          <div className="service__head">
             <h3>Web Development</h3>
           </div>
           <ul className="service__list">
@@ -73,6 +41,38 @@ const Services = () => {
           </ul>
         </article>
         {/* END Web Dev */}
+        <article className="service">
+          <div className="service__head">
+            <h3>UI/UX Development</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>SASS</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>CSS3</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Photoshop</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Sketch</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Figma</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Illustrator</p>
+            </li>
+          </ul>
+        </article>
+        {/* END UI/UX Design */}
         <article className="service">
           <div className="service__head">
             <h3>Collaboration</h3>

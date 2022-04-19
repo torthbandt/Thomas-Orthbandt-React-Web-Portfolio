@@ -18,7 +18,7 @@
      --color-white: #fff;
      --color-light: rgba(255,255,255,0.8);
      --container-width-lg: 75%;
-     --container-width-md: 86%;
+     --container-width-md: 80%;
      --container-width-sm: 90%;
      --transition: all 400ms ease;
 }
@@ -120,7 +120,7 @@ img {
 }
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
-@media  screen and (max-width: 1024px) {
+@media  screen and (max-width: 1023px) {
      .container {
           width: var(--container-width-md);
      }
@@ -130,7 +130,7 @@ img {
 } 
 
 /*  ====================== MEDIA QUERY (MOBILE) ======================  */
-@media  screen and (max-width: 600) {
+@media  screen and (max-width: 767) {
      .container {
           width: var(--container-width-sm);
      }

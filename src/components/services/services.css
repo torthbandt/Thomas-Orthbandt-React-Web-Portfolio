@@ -2,6 +2,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
+    border-bottom: 1px solid var(--color-primary);
+    padding: 0 0 2rem 0;
 }
 
 .service {
@@ -51,10 +53,11 @@
 }
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
-@media  screen and (max-width: 1024px) {
+@media  screen and (max-width: 1023px) {
     .services__container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 2rem;
+        width: 54% !important;
     }
 
     .service {
@@ -63,9 +66,8 @@
 } 
 
 /*  ====================== MEDIA QUERY (MOBILE) ======================  */
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 767px) {
     .services__container {
-        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
     .service__list {

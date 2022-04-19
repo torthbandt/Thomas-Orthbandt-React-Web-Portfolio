@@ -1,6 +1,7 @@
 .container.testimonials__container {
     width: 40%;
     padding-bottom: 4rem;
+    border-bottom: 1px solid var(--color-primary);
 }
 
 .client__avatar {
@@ -37,14 +38,14 @@
 }
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
-@media  screen and (max-width: 1024px) {
+@media  screen and (max-width: 1023px) {
     .container.testimonials__container {
         width: 60%;
     }
 } 
 
 /*  ====================== MEDIA QUERY (MOBILE) ======================  */
-@media  screen and (max-width: 600px) {
+@media  screen and (max-width: 767px) {
     .container.testimonials__container {
         width: var(--container-width-sm);
     }
