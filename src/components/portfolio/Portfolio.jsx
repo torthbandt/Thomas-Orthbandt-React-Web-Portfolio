@@ -1,46 +1,53 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/codepen-carousel-glad.jpg'
-import IMG2 from '../../assets/model.png'
-import IMG3 from '../../assets/org-chart.png'
-import IMG4 from '../../assets/personal-timeline.png'
-import IMG5 from '../../assets/rest-api-wiki.png'
-import IMG6 from '../../assets/american-flag.png'
+import IMG1 from '../../assets/movie-list.png'
+import IMG2 from '../../assets/magnify-js.png'
+import IMG3 from '../../assets/codepen-carousel-glad.jpg'
+import IMG4 from '../../assets/model.png'
+import IMG5 from '../../assets/personal-timeline.png'
+import IMG6 from '../../assets/rest-api-wiki.png'
+import IMG7 from '../../assets/american-flag.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Carousel',
-    codepen: 'https://codepen.io/torthbandt/pen/dyVMyVx'
+    title: 'Movie List',
+    codepen: 'https://codepen.io/torthbandt/pen/XWEmxzr'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'CSS Modal with Overlay',
-    codepen: 'https://codepen.io/torthbandt/pen/abOBQmx'
+    title: 'Magnify JS',
+    codepen: 'https://codepen.io/torthbandt/pen/yLKMrZZ'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Responsive Org Chart',
-    codepen: 'https://codepen.io/torthbandt/pen/vPVWVV'
+    title: 'Carousel',
+    codepen: 'https://codepen.io/torthbandt/pen/dyVMyVx'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Timeline',
-    codepen: 'https://codepen.io/torthbandt/pen/xPqJaL'
+    title: 'CSS Modal with Overlay',
+    codepen: 'https://codepen.io/torthbandt/pen/abOBQmx'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'REST Wiki',
-    codepen: 'https://codepen.io/torthbandt/pen/ZaYQzK'
+    title: 'Timeline',
+    codepen: 'https://codepen.io/torthbandt/pen/xPqJaL'
   },
   {
     id: 6,
     image: IMG6,
+    title: 'REST Wiki',
+    codepen: 'https://codepen.io/torthbandt/pen/ZaYQzK'
+  },
+  {
+    id: 7,
+    image: IMG7,
     title: 'CSS3 - American Flag',
     codepen: 'https://codepen.io/torthbandt/pen/zqNpxQ'
   }

@@ -8,7 +8,7 @@
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 4rem;
+    padding: 2.4rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);

@@ -1,5 +1,5 @@
 header {
-     height: 100vh;
+     /* height: 100vh; */
      padding-top: 7rem;
      overflow: hidden;
 }
@@ -30,7 +30,7 @@ header {
      align-items: center;
      gap: 0.8rem;
      position: fixed;
-     left: 9.5rem;
+     left: 3rem;
      bottom: 3rem;
      font-size: 3rem;
 }
@@ -45,20 +45,20 @@ header {
 /* ============ IMAGE  ============ */
 .me {
      background: linear-gradient(var(--color-primary), transparent);
-     position: absolute;
-     left: calc(50% - 17rem);
-     margin-top: 11rem;
+     margin: 3rem auto 0;
      border-radius: 50%;
      overflow: hidden;
+     width: 33%;
+     /*left: calc(50% - 17rem);
      padding: 0rem; /* 0rem 3rem 0rem */
-     /*width: 36rem;
+     /*position: absolute;
      height: 39rem;*/
 }
 
 /* ============ IMAGE  ============ */
 .scroll__down {
      position: fixed;
-     right: 10rem;
+     right: 3rem;
      bottom: 5rem;
      font-weight: 300;
      font-size: 3rem;
@@ -67,11 +67,18 @@ header {
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
 @media  screen and (max-width: 1023px) {
-     .header__socials, .scroll__down {
+     header {
+          padding-top: 5rem;
+     }
+     .header__socials, 
+     .scroll__down {
           font-size:2rem;
      }
      .header__socials {
           left: 2rem;
+     }
+     .me {
+          width: 75%
      }
      .scroll__down {
           right: 2rem;
@@ -81,11 +88,20 @@ header {
 
 /*  ====================== MEDIA QUERY (MOBILE) ======================  */
 @media  screen and (max-width: 767px) {
+     header {
+          padding-top: 4rem;
+     }
+     .cta {
+          display: grid;
+     }
+     .cta .btn {
+          width: auto;
+     }
      .header__socials,.scroll__down {
           display: none;
      }
      .me {
-          margin: 2rem 2rem 0 0;
-          left: calc(50% - 13rem);
+          margin: 2rem auto 0;
+          width: 60%
      }
 } 
