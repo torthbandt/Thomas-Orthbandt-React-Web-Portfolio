@@ -22,7 +22,7 @@ const Contact = () => {
   const emailValidation = () => {
     const regEx = /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-zA-Z]{2,8}(.[a-z{2,8}])?/g;
     if (regEx.test(email)) {
-      setMessage("Email is valid");
+      setMessage("Email sent");
     } else if (!regEx.test(email) && email !== "") {
       setMessage("Email is not valid");
     } else {

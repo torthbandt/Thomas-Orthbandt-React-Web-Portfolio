@@ -12,7 +12,7 @@
 }
 
 .container.contact__container .message {
-    color: red;
+    color: var(--color-primary);
     font-size: 0.9rem;
 }
 
