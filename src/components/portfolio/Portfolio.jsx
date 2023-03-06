@@ -8,6 +8,7 @@ import IMG5 from '../../assets/personal-timeline.png'
 import IMG6 from '../../assets/rest-api-wiki.png'
 import IMG7 from '../../assets/american-flag.png'
 import IMG8 from '../../assets/clorox-email.png'
+import IMG9 from '../../assets/nav-arrow-border.png'
 
 const data = [
   {
@@ -57,6 +58,12 @@ const data = [
     image: IMG8,
     title: 'Email - Clorox',
     codepen: 'https://codepen.io/torthbandt/pen/GRXvRmZ'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Nav arrows highlighted',
+    codepen: 'https://codepen.io/torthbandt/pen/PoBZvwp'
   }
 ]
 
