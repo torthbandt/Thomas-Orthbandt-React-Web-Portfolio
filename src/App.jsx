@@ -9,7 +9,7 @@ import Testimonials from './components/testimonials/Testimonials'
 import Contact      from './components/contact/Contact'
 import Footer       from './components/footer/Footer'
 
-const app = () => {
+const App = () => {
   return (
     <>
           <Header />
@@ -25,4 +25,4 @@ const app = () => {
   )
 }
 
-export default app
+export default App

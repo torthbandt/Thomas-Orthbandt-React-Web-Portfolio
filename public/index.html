@@ -2,35 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel=”icon” type=“image/x-icon” href="/favicon.ico"/>
 
     <title>Thomas-Orthbandt React Web Portfolio</title>
 
-	<!-- Global site tag (GA4) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FDSSZE5EPE"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+	<meta name="google-site-verification" content="q4MQmrHIIkebq896lUsiMuI87AqH4s7QwcmAKUioCaI" />
 
-		gtag('config', 'G-FDSSZE5EPE');
-	</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Highly skilled and experienced Website Manager and Front-end Developer with over 20-years of experience in developing and managing websites. Proficient in HTML, CSS, JavaScript, and other relevant programming languages. Adept at utilizing content management systems (CMS) to manage and maintain websites, implementing SEO optimization strategies, and developing and executing digital marketing plans to drive website traffic and engagement."/>
+	
+	<meta property="og:locale" content="en_US" />
+  	<meta property="og:type" content="website" />
+  	<meta property="og:title" content="Thomas-Orthbandt React Web Portfolio" />
+  	<meta property="og:description" content="Highly skilled and experienced Website Manager and Front-end Developer with over 20-years of experience in developing and managing websites. Proficient in HTML, CSS, JavaScript, and other relevant programming languages. Adept at utilizing content management systems (CMS) to manage and maintain websites, implementing SEO optimization strategies, and developing and executing digital marketing plans to drive website traffic and engagement." />
+  	<meta property="og:url" content="https://Thomas-Orthbandt.com" />
+  	<meta property="og:site_name" content="Thomas-Orthbandt React Web Portfolio" />
+  	<meta property="og:image" content="/src/assets/american-flag.png" />
+	
+	<link rel=”icon” type=“image/x-icon” href="/favicon.ico"/>
 
-	<!-- Global site tag (GA UA) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9501937-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
 
-		gtag('config', 'UA-9501937-1');
-	</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KKHQFCT');</script>
+	<!-- End Google Tag Manager -->
 
 </head>
 
 <body>
     <div id="root"></div>
+
+	<script type="application/javascript">
+		var queryForm = function(settings){
+			var reset = settings && settings.reset ? settings.reset : false;
+			var self = window.location.toString();
+			var querystring = self.split("?");
+			if (querystring.length > 1) {
+				var pairs = querystring[1].split("&");
+				for (i in pairs) {
+					var keyval = pairs[i].split("=");
+					if (reset || sessionStorage.getItem(keyval[0]) === null) {
+					sessionStorage.setItem(keyval[0], decodeURIComponent(keyval[1]));
+					}
+				}
+			}
+			var hiddenFields = document.querySelectorAll("input[type=hidden], input[type=text]");
+			for (var i=0; i<hiddenFields.length; i++) {
+				var param = sessionStorage.getItem(hiddenFields[i].name);
+				if (param) document.getElementsByName(hiddenFields[i].name)[0].value = param;
+			}
+		}
+		setTimeout(function(){queryForm();}, 3000);
+	</script>
 </body>
 </html>
