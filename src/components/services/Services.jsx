@@ -5,13 +5,12 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I Offer</h5>
       <h2>Services</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Web/Email Development</h3>
           </div>
           <ul className="service__list">
             <li>
@@ -21,10 +20,6 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>Javascript</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>jQuery</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -38,6 +33,10 @@ const Services = () => {
               <BiCheck className="service__list-icon" />
               <p>AJAX</p>
             </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>VML</p>
+            </li>
           </ul>
         </article>
         {/* END Web Dev */}
@@ -48,19 +47,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>SASS</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>CSS3</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Photoshop</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Sketch</p>
+              <p>SASS/CSS3</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -68,7 +55,19 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
+              <p>Sketch</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Photoshop</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
               <p>Illustrator</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>CrazyEgg</p>
             </li>
           </ul>
         </article>
@@ -80,15 +79,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Stack Overflow</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
               <p>Github</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>JIRA</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -101,6 +92,14 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>Teams</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Zoom</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>JIRA</p>
             </li>
           </ul>
         </article>
