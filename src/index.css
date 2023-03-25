@@ -35,15 +35,29 @@ html {
 
 body {
      font-family: 'Source Code Pro', monospace;
-     background: var(--color-bg);
+     background: rgb(0,212,255);
+     background: linear-gradient(0deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 100%);
      color: var(--color-white);
      line-height: 1.7;
-     background-image: url(../src/assets/bg.jpg);/* url(../src/assets/bg-texture.png); */
+     /*background-image: url(../src/assets/bg.webp);
+     background: var(--color-bg);*/
 }
 
-.container {
-     width: var(--container-width-lg);
-     margin: 0 auto;
+a {
+     color: var(--color-primary);
+     transition: var(--transition);
+}
+
+a:hover {
+     color: var(--color-white);
+}
+
+a.scroll__down {
+     color: var(--color-white);
+}
+
+a.scroll__down:hover {
+     color: var(--color-light);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -62,33 +76,34 @@ h5 {
      font-size: 2rem;
 }
 
+img {
+     display: block;
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+}
+
 section {
-     margin-top: 8rem;
+     margin-top: 4rem;
      /* height: 100vh; */
 }
 
 section > h2,
 section > h5 {
      text-align: center;
-     color: var(--color-light);
 }
 
 section > h2 {
-     color: var(--color-primary);
      margin-bottom: 3rem;
+}
+
+.container {
+     width: var(--container-width-lg);
+     margin: 0 auto;
 }
 
 .text-light {
      color: var(--color-light);
-}
-
-a {
-     color: var(--color-primary);
-     transition: var(--transition);
-}
-
-a:hover {
-     color: var(--color-white);
 }
 
 .btn {
@@ -109,14 +124,10 @@ a:hover {
 }
 
 .btn-primary {
-     background: var(--color-primary);
-     color: var(--color-bg);
-}
-
-img {
-     display: block;
-     width: 100%;
-     object-fit: cover;
+     /*background: var(--color-primary);
+     color: var(--color-bg);*/
+     background: var(--color-bg-variant);
+     color: var(--color-white);
 }
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
@@ -124,6 +135,7 @@ img {
      .container {
           width: var(--container-width-md);
      }
+
      section {
           margin-top: 6rem;
      }
@@ -134,6 +146,7 @@ img {
      .container {
           width: var(--container-width-sm);
      }
+
      section > h2 {
           margin-bottom: 2rem;
      }
