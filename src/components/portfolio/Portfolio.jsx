@@ -1,21 +1,21 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/movie-list.png'
-import IMG2 from '../../assets/magnify-js.png'
-import IMG3 from '../../assets/codepen-carousel-glad.jpg'
-import IMG4 from '../../assets/model.png'
-import IMG5 from '../../assets/personal-timeline.png'
-import IMG6 from '../../assets/rest-api-wiki.png'
-import IMG7 from '../../assets/american-flag.png'
-import IMG8 from '../../assets/clorox-email.png'
-import IMG9 from '../../assets/nav-arrow-border.png'
+import IMG1 from '../../assets/movie-list.webp'
+import IMG2 from '../../assets/magnify-js.webp'
+import IMG3 from '../../assets/codepen-carousel-glad.webp'
+import IMG4 from '../../assets/model.webp'
+import IMG5 from '../../assets/personal-timeline.webp'
+import IMG6 from '../../assets/rest-api-wiki.webp'
+import IMG7 from '../../assets/american-flag.webp'
+import IMG8 from '../../assets/clorox-email.webp'
+import IMG9 from '../../assets/nav-arrow-border.webp'
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Movie List',
-    codepen: 'https://codepen.io/torthbandt/pen/XWEmxzr'
+    codepen: 'https://codepen.io/torthbandt/pen/XWEmxzr',
   },
   {
     id: 2,
@@ -70,21 +70,19 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
       {
-        data.map(({id, image, title, codepen, demo}) => {
+        data.map(({id, image, title, codepen}) => {
           return (
             <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
-                <img src={image} alt="{title}" />
+                <img src={image} alt={title} width="289" height="220"/>
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={codepen} className='btn' target='_blank'rel="noreferrer">CodePen</a>
-                {/* <a href={demo} className='btn btn-primary' target='_blank'rel="noreferrer">Live Demo</a>*/}
               </div>
             </article>
           )
