@@ -5,8 +5,9 @@ header {
 }
 .header__container {
      text-align: center;
-     height: 100%;
-     border-bottom: 1px solid var(--color-primary);
+     /*height: 100%;
+     border-bottom: 1px solid var(--color-primary);*/
+     border-bottom: 1px solid var(--color-light);
 }
 
 .header__content p {
@@ -34,18 +35,32 @@ header {
      bottom: 3rem;
      font-size: 3rem;
 }
+.header__socials a {
+     color: var(--color-white);
+}
+.header__socials a:hover {
+     color: var(--color-light);
+}
 
-.header__socials::after {
+/*
+header__socials::after {
      content: '';
      width: 3px;
      height: 2rem;
      background: var(--color-primary)
 }
+*/
+.cta .btn-download {
+     background-color: var(--color-white);
+}
+.cta .btn-download:hover {
+     background-color: var(--color-light);
+}
 
 /* ============ IMAGE  ============ */
 .me {
      background: linear-gradient(var(--color-primary), transparent);
-     margin: 3rem auto 0;
+     margin: 3rem auto 2rem;
      border-radius: 50%;
      overflow: hidden;
      width: 33%;
