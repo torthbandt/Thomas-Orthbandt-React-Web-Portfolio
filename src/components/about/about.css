@@ -67,6 +67,9 @@
     color: var(--color-white);
     font-size: 1.2rem;
 }
+.about__content .mb20 {
+    margin-bottom:20px;
+}
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
 @media  screen and (max-width: 1023px) {
