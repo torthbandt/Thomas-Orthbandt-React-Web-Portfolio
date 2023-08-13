@@ -17,6 +17,7 @@
      --color-white: #fff;
      --color-light: rgba(255,255,255,0.8);
      --color-light-blue: rgba(0,212,255,1);
+     --color-gold: rgba(255, 215, 0, 1);
      --container-width-lg: 75%;
      --container-width-md: 80%;
      --container-width-sm: 90%;
@@ -101,6 +102,7 @@ section > h5 {
 
 section > h2 {
      margin-bottom: 3rem;
+     color: var(--color-gold);
 }
 
 .container {

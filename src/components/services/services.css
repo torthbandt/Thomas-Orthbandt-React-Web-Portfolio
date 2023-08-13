@@ -35,7 +35,7 @@
 
 .service__list {
     display: grid;
-    margin: 0 1rem;
+    margin: 0 13rem;
 }
 
 .service__list li {
@@ -77,5 +77,6 @@ svg.service__list-icon {
     }
     .service__list {
         padding: 2rem;
+        margin: 0 1rem;
     }
 }

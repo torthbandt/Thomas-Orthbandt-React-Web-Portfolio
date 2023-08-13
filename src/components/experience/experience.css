@@ -43,13 +43,14 @@
 }
 
 .experience__details small {
-    color: var(--color-light-blue);
+    color: var(--color-gold);
 }
 
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
-    width: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 /*  ====================== MEDIA QUERY (TABLETS) ======================  */
@@ -69,5 +70,9 @@
     }
     .experience__container {
         gap: 1rem;
+    }
+    .experience__details-icon {
+        width: 1rem;
+        height: 1rem;
     }
 }

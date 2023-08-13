@@ -20,11 +20,11 @@ header {
 */
 .header__container h1,
 .header__container h2 {
-     color: var(--color-light-blue);
+     color: var(--color-white);
 }
 
 .header__container h1.header__name {
-     color: var(--color-white);
+     color: var(--color-gold);
      font-size: 3.2rem;
 }
 

@@ -3,7 +3,7 @@ import './header.css'
 import CTA from './CTA'
 //import ME from '../../assets/me-transparent.webp'
 import HeaderSocials from './HeaderSocials'
-import {BsFillArrowDownSquareFill} from 'react-icons/bs'
+//import {BsFillArrowDownSquareFill} from 'react-icons/bs'
 
 
 const Header = () => {
@@ -24,9 +24,9 @@ const Header = () => {
 
         {/*<div className="me">
           <img src={ME} alt="Thomas Orthbandt" width="353" height="353" />
-        </div>*/}
+        </div>
 
-        <a href="#contact" className="scroll__down" title="Scroll Down Page"><BsFillArrowDownSquareFill/></a>
+        <a href="#contact" className="scroll__down" title="Scroll Down Page"><BsFillArrowDownSquareFill/></a>*/}
       </div>
     </header>
   )
