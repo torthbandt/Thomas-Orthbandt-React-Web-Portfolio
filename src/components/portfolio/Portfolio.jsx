@@ -1,87 +1,95 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/apple-website.webp'
-import IMG2 from '../../assets/movie-list.webp'
-import IMG3 from '../../assets/magnify-js.webp'
-import IMG4 from '../../assets/codepen-carousel-glad.webp'
-import IMG5 from '../../assets/model.webp'
-import IMG6 from '../../assets/personal-timeline.webp'
-import IMG7 from '../../assets/rest-api-wiki.webp'
-import IMG8 from '../../assets/american-flag.webp'
-import IMG9 from '../../assets/clorox-email.webp'
-import IMG10 from '../../assets/nav-arrow-border.webp'
+import IMG1 from '../../assets/crypto-calculator.webp'
+import IMG2 from '../../assets/apple-website.webp'
+import IMG3 from '../../assets/movie-list.webp'
+import IMG4 from '../../assets/magnify-js.webp'
+import IMG5 from '../../assets/codepen-carousel-glad.webp'
+import IMG6 from '../../assets/model.webp'
+import IMG7 from '../../assets/personal-timeline.webp'
+import IMG8 from '../../assets/rest-api-wiki.webp'
+import IMG9 from '../../assets/american-flag.webp'
+import IMG10 from '../../assets/clorox-email.webp'
+import IMG11 from '../../assets/nav-arrow-border.webp'
 
 const data = [
   {
     id: 1,
     image: IMG1,
+    title: 'Crypto Calculator',
+    url: 'https://codepen.io/torthbandt/pen/poqvymG',
+    site: 'Codepen.io',
+  },
+  {
+    id: 2,
+    image: IMG2,
     title: '3D iPhone',
     url: 'https://projects.thomas-orthbandt.com',
     site: 'Website',
   },
   {
-    id: 2,
-    image: IMG2,
+    id: 3,
+    image: IMG3,
     title: 'Movie List',
     url: 'https://codepen.io/torthbandt/pen/XWEmxzr',
     site: 'Codepen.io',
   },
   {
-    id: 3,
-    image: IMG3,
+    id: 4,
+    image: IMG4,
     title: 'Magnify JS',
     url: 'https://codepen.io/torthbandt/pen/yLKMrZZ',
     site: 'Codepen.io',
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: 'Carousel',
     url: 'https://codepen.io/torthbandt/pen/dyVMyVx',
     site: 'Codepen.io',
   },
   {
-    id: 5,
-    image: IMG5,
+    id: 6,
+    image: IMG6,
     title: 'CSS Modal with Overlay',
     url: 'https://codepen.io/torthbandt/pen/abOBQmx',
     site: 'Codepen.io',
   },
   {
-    id: 6,
-    image: IMG6,
+    id: 7,
+    image: IMG7,
     title: 'Timeline',
     url: 'https://codepen.io/torthbandt/pen/xPqJaL',
     site: 'Codepen.io',
   },
   {
-    id: 7,
-    image: IMG7,
+    id: 8,
+    image: IMG8,
     title: 'REST Wiki',
     url: 'https://codepen.io/torthbandt/pen/ZaYQzK',
     site: 'Codepen.io',
   },
   {
-    id: 8,
-    image: IMG8,
+    id: 9,
+    image: IMG9,
     title: 'CSS3 - American Flag',
     url: 'https://codepen.io/torthbandt/pen/zqNpxQ',
     site: 'Codepen.io',
   },
   {
-    id: 9,
-    image: IMG9,
+    id: 10,
+    image: IMG10,
     title: 'Email - Clorox',
     url: 'https://codepen.io/torthbandt/pen/GRXvRmZ',
     site: 'Codepen.io',
   },
   {
-    id: 10,
-    image: IMG10,
+    id: 11,
+    image: IMG11,
     title: 'Nav arrows highlighted',
     url: 'https://codepen.io/torthbandt/pen/PoBZvwp',
     site: 'Codepen.io',
-  }
+  },
 ]
 
 const Portfolio = () => {
