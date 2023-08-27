@@ -5,19 +5,19 @@ header {
 
 .header__container {
      display: grid;
-     grid-template-columns: 1fr; /*1fr 1fr;*/
+     grid-template-columns: 1fr 1fr;
      gap: 2rem;
      border-bottom: 1px solid var(--color-light);
      padding: 0 0 2rem 0;
      text-align: center;
  }
 
-/*
+
 .header__container {
      text-align: center;
      border-bottom: 1px solid var(--color-light);
 }
-*/
+
 .header__container h1,
 .header__container h2 {
      color: var(--color-white);
@@ -73,7 +73,7 @@ header {
      margin: auto;
      border-radius: 50%;
      overflow: hidden;
-     /*width: 33%;*/
+     width: 80%;
 }
 
 /* ============ IMAGE  ============ */
