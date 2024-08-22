@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/thomas-orthbandt-headshot.webp'
+import ME from '../../assets/me.webp'
 import HeaderSocials from './HeaderSocials'
 import {BsFillArrowDownSquareFill} from 'react-icons/bs'
 
