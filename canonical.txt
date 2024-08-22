@@ -1,0 +1,11 @@
+Add this canonical tag to the <head> section of site: ​
+<link href="<?php echo current_url(); ?>" rel="canonical" />​
+
+This will pick up the current page URL.​
+
+Next, remove the .php extension from the URL by creating a rewrite rule in the HTACCESS file​
+
+RewriteCond %{REQUEST_FILENAME} !-d​
+RewriteCond %{REQUEST_FILENAME}\.php -f​
+RewriteRule ^(.*)$ $1.php [NC,L] 
+
