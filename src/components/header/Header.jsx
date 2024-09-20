@@ -11,9 +11,8 @@ const Header = () => {
     <header role="banner">
       <div className="container header__container">
         <div>
-          <h1>Hello,</h1>
-          <h1> My Name is</h1>
-          <h1 className="header__name">Thomas Orthbandt</h1>
+          <h1>Welcome to my<br/>
+          Portfolio Website</h1>
           <h2 className='text-light'> I specialize in</h2>
           <h2 className='text-light'>Website Management &amp; Frontend Development </h2>
           

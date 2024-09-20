@@ -1,5 +1,5 @@
 .container.testimonials__container {
-    width: 40%;
+    width: 75%;
     padding-bottom: 4rem;
     border-bottom: 1px solid var(--color-light);
 }
@@ -19,11 +19,13 @@
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+    position: relative; /* Add this for proper pagination positioning */
 }
 
 .testimonial small {
     color: var(--color-white);
     font-size: 1rem;
+    text-align: justify;
 }
 
 .client__review {
@@ -31,26 +33,35 @@
     font-weight: 300;
     display: block;
     width: 80%;
-    margin: 0.8rem auto 0;
+    margin: 0.8rem auto 1.5rem; /* Adjust margin to create space between review and pagination */
 }
 
+.swiper-pagination {
+    position: relative; /* Keep pagination in the normal flow */
+    margin-top: 1rem;   /* Adds space above the pagination bullets */
+}
+
+/* Adjust bullet styling */
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: var(--color-white);
 }
 
-/*  ====================== MEDIA QUERY (TABLETS) ======================  */
-@media  screen and (max-width: 1023px) {
+/* ====================== MEDIA QUERY (TABLETS) ====================== */
+@media screen and (max-width: 1023px) {
     .container.testimonials__container {
         width: 60%;
     }
-} 
+}
 
-/*  ====================== MEDIA QUERY (MOBILE) ======================  */
-@media  screen and (max-width: 767px) {
+/* ====================== MEDIA QUERY (MOBILE) ====================== */
+@media screen and (max-width: 767px) {
     .container.testimonials__container {
         width: var(--container-width-sm);
     }
     .client__review {
         width: var(--container-width-sm);
+    }
+    .swiper-pagination {
+        margin-top: 1.2rem; /* Slightly increase spacing for mobile */
     }
 }

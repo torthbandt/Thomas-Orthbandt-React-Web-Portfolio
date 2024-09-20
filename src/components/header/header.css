@@ -18,9 +18,12 @@ header {
      border-bottom: 1px solid var(--color-light);
 }
 
-.header__container h1,
-.header__container h2 {
+.header__container h1 {
      color: var(--color-white);
+}
+
+.header__container h2 {
+     color: var(--color-gold);
 }
 
 .header__container h1.header__name {
